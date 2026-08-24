@@ -14,7 +14,7 @@ body:
     attributes:
       label: Descrição do Bug
       description: Uma descrição clara e concisa sobre qual é o problema.
-      placeholder: Ex: Ao tentar adicionar um novo membro ao projeto, o botão de confirmar não responde.
+      placeholder: "Ex: Ao tentar adicionar um novo membro ao projeto, o botão de confirmar não responde."
     validations:
       required: true
 
