@@ -1,0 +1,62 @@
+name: Reporte de Bug na Silver Bullet
+description: Crie um reporte detalhado para nos ajudar a corrigir falhas na ferramenta.
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Obrigado por ajudar a melhorar a Silver Bullet!
+        Preencha os campos abaixo com o máximo de detalhes possível para que possamos reproduzir e corrigir o problema rapidamente.
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: Descrição do Bug
+      description: Uma descrição clara e concisa sobre qual é o problema.
+      placeholder: Ex: Ao tentar adicionar um novo membro ao projeto, o botão de confirmar não responde.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproducao
+    attributes:
+      label: Passos para Reproduzir
+      description: Como podemos disparar esse bug? Explique passo a passo.
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+
+  - type: textarea
+    id: comportamento_esperado
+    attributes:
+      label: Comportamento Esperado
+      description: O que você esperava que o sistema fizesse?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: navegador
+    attributes:
+      label: Navegador Utilizado
+      description: Qual navegador você estava usando quando o erro ocorreu?
+      options:
+        - Google Chrome
+        - Mozilla Firefox
+        - Microsoft Edge
+        - Safari
+        - Opera
+        - Outro
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Screenshots ou Contexto Adicional
+      description: Arraste e solte imagens aqui ou adicione qualquer outra informação relevante.
+    validations:
+      required: false
