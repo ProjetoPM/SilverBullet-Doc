@@ -1,0 +1,44 @@
+name: Sugestão de Melhoria na Silver Bullet
+description: Tem uma ideia para uma nova funcionalidade ou melhoria? Compartilhe aqui.
+title: "[SUGESTÃO] "
+labels: ["melhoria"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Toda grande ideia é bem-vinda!
+        Use este formulário para sugerir novas funcionalidades, ajustes na interface ou melhorias para a Silver Bullet.
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qual problema sua sugestão resolve?
+      description: Uma boa ideia geralmente nasce de uma dificuldade. O que está faltando ou poderia ser mais fácil?
+      placeholder: "Ex: É difícil visualizar o progresso das tarefas da sprint atual..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solucao
+    attributes:
+      label: Descrição da Solução Proposta
+      description: Como você imagina que a ferramenta deveria se comportar? Descreva sua ideia.
+      placeholder: "Ex: Poderia existir um gráfico na tela inicial do projeto que..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas Consideradas
+      description: Você pensou em alguma outra forma de resolver isso?
+    validations:
+      required: false
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto Adicional ou Esboços
+      description: Arraste e solte imagens, desenhos ou qualquer outra referência que ajude a ilustrar sua ideia.
+    validations:
+      required: false
